@@ -151,6 +151,9 @@ class Explosion:
     
 
 class Score:
+    """
+    スコアを表示する
+    """
     def __init__(self):
         self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
         color = (0, 0, 255)
